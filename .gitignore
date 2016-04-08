@@ -1,0 +1,10 @@
+bower_components/
+node_modules/
+.sass-cache/
+dist/
+build/
+.tmp/
+*.css
+app/scripts/htmlTemplates.js
+app/images/svg_gen/
+.DS_store

@@ -1,0 +1,9 @@
+{
+  "environment": "dev",
+  "app": {
+    "baseUrl": "https://127.0.0.1:9003"
+  },
+  "api": {
+    "baseUrl": "http://API_DEV/" 
+  }
+}

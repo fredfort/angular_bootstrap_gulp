@@ -1,0 +1,28 @@
+<div class="users">
+	<div class="userList">
+		<h1>User's list</h1>
+
+		<ul ng-repeat="user in users.users">
+			<li><a ui-sref="main.user({userId:user.id})">{{user.name}}</a></li>
+		</ul>
+	</div>
+	<div class="newUser row">
+		<div class="col-md-6">
+			<h1>Add user</h1>
+			<form role="form">
+			  <div class="form-group">
+			    <label for="name">Name:</label>
+			    <input type="text" name="name" ng-model="users.name" class="form-control" id="name">
+			  </div>
+			  <div class="form-group">
+			    <label for="surname">Surname:</label>
+			    <input type="text" name="surname" ng-model="users.surname" class="form-control" id="surname">
+			  </div>
+			  <div class="checkbox">
+			    <label><input type="checkbox" ng-model="users.gender"> Male</label>
+			  </div>
+			  <button type="submit" ng-click="addUser()"class="btn btn-default">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>

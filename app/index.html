@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular bootstrap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- build:css({.tmp,app}) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angularjs-toaster/toaster.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    
+
+  </head>
+  <body ng-app="appStub">
+
+    <!-- Content goes here -->
+    <div ui-view></div>
+
+    <!--Toaster popup -->
+    <toaster-container></toaster-container> 
+
+    <!-- build:js scripts/vendor.js -->
+
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angularjs-toaster/toaster.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="images/svg_gen/grunticon.loader.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/appStub.js"></script>
+    <script src="scripts/constants.js"></script>
+
+    <script src="scripts/controllers/MainCtrl.js"></script>
+    <script src="scripts/http/API.js"></script>
+    <script src="scripts/http/HttpInterceptor.js"></script>
+
+    <script src="modules/users/scripts/users.js"></script>
+    <script src="modules/module2/scripts/module2.js"></script>
+    <script src="modules/module3/scripts/module3.js"></script>
+
+    <script src="modules/users/scripts/controller/UsersCtrl.js"></script>
+    <script src="modules/users/scripts/controller/UserCtrl.js"></script>
+    <script src="modules/module2/scripts/controller/Module2MainCtrl.js"></script>
+    <script src="modules/module3/scripts/controller/Module3MainCtrl.js"></script>
+
+    <!-- endbuild -->
+
+    <script src="config/config.js"></script>
+
+
+</body>
+</html>

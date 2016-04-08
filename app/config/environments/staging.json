@@ -1,0 +1,9 @@
+{
+  "environment": "staging",
+  "app": {
+    "baseUrl": "https://stagingUrl"
+  },
+  "api": {
+    "baseUrl": "http://STAGING_API/"
+  }
+}

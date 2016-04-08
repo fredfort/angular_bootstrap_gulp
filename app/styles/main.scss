@@ -1,0 +1,40 @@
+// Core variables and mixins
+@import "_variables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+
+@import "_mixins";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
+
+
+// Reset and dependencies
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+
+// Core CSS
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+
+// Components
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/panels";
+
+
+
+// Utility classes
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+
+//Personal css here
+
+//modules
+@import "../modules/users/styles/_main";
+@import "../modules/module2/styles/_main";
+@import "../modules/module3/styles/_main";
+
+//app
+@import "_app.scss";
