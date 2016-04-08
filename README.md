@@ -49,20 +49,22 @@ TODO
 5. Check out the project at `http://localhost:9000/apps/index.html`
 
 ## Build
-- Running `grunt build` builds the project into the dist directory.
-- Running `grunt staging` builds the staging project into the dist directory.
-- Running `grunt production` builds the production project into the dist directory.
+- Running `gulp serve-dev-build` builds the project into the dist directory.
+- Running `gulp serve-staging-build` the staging project into the dist directory.
+- Running `gulp serve-production-build` builds the production project into the dist directory.
 
 You can for instance define 3 different API urls according if you are in dev, staging or production.
 
 
 ## Unit Testing
 
-Running `grunt test` runs the unit tests with karma.
+TODO: Running `gulp test` runs the unit tests with karma.
 
 ## End to end Testing
 
-- Run `grunt serve` to launch your server.
-- Run `grunt e2e` to open a browser and run the end to end tests with protractor(selenium).
+TODO
+- Run `gulp e2e` to open a browser and run the end to end tests with protractor(selenium).
+
 The first test will take more time as selenium standalone and chromedriver are installed.
+
 # angular_bootstrap_gulp
