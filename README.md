@@ -1,7 +1,7 @@
 # angular_bootstrap
 
 * Good start for all your angular projects
-* Technologies used: Yeoman, Grunt, Bower, Angularjs, Bootstrap sass.
+* Technologies used: Yeoman, Gulp, Bower, Angularjs, Bootstrap sass.
 
 
 Objective
@@ -11,39 +11,28 @@ Build a generic start for every angular project.
 
 Help you to build a optimized and scalable project, ready for tests and deployable on different environment you can configure.
 
-You want to use SVG images?
-
-Just drop your svg images in the images/svg folders and you can use them via a sprite file using the css class 'svg-icon-%your_file_name%'.
 
 
 
 Done
 -------
 
-* Create a git repository
-* Create the app with yeoman 
 * Use ui-rooter
 * Split the app into modules
-* Use Bootstrap-UI
 * Load properly bootsrap SASS (in order to easily overwrite bootstrap variables)
 * Create different environment build(dev, stagging, prod)
 * Use wiredep to dynamically load bower dependencies (app & test)
-* Use angular ngtemplates for caching your HTML templates with $templateCache.
 * Create a REST API Call Factory
 * Create a HTTP interceptor
 * Handle server message error
-* Use SvgIcons
-* Unit test (karma)
-* End to end test (protractor)
 * Use John Papa Styles (https://github.com/johnpapa/angular-styleguide)
-
+* Use $httpBackend to mock REST API up in development environment
 
 TODO
 -------
 
-* Migration to GULP
+* Update unit testand e2e test
 
-* Other improvements to come
 
 ## Requirements
 
